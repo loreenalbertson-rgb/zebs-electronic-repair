@@ -1,22 +1,31 @@
 # Zeb's Electronics Repair
 
-GitHub Pages ready static website for Zeb's Electronics Repair in Salem, Oregon.
+GitHub Pages website for Zeb's Electronics Repair in Salem, Oregon.
 
-## Brand
+## Brand direction
 
 **Repair. Restore. Reuse.**
 
-The theme uses brushed silver, deep navy, and teal. The circuit Z logo is embedded directly into the HTML, so there are no required image files or asset folders for the branding to load.
+The site uses a brushed silver, deep navy, and teal identity inspired by the circular circuit-Z badge. The logo is embedded directly in the HTML so the homepage still displays correctly even if the assets folder is missed during upload.
 
-## Upload to GitHub
+## Files to upload to GitHub
 
-Replace the files in the repository root with:
-
+Required:
 - `index.html`
 - `styles.css`
 - `script.js`
 - `policies.html`
 
-Commit the changes. GitHub Pages will rebuild automatically if Pages is already enabled from the `main` branch and `/(root)` folder.
+Optional reusable branding:
+- `assets/brand-mark.svg`
+- `assets/favicon.svg`
 
-If the old version appears after deployment, use a hard refresh (`Ctrl + F5` on Windows) or open the page in a private/incognito window.
+## GitHub Pages
+
+Use **Settings → Pages → Deploy from a branch → main → /(root)**.
+
+After replacing files, hard refresh the live site with **Ctrl + F5** if an older stylesheet is cached.
+
+## Responsive layout
+
+The navigation collapses before desktop links become crowded, service and pricing cards reduce columns as the screen narrows, and buttons stack at phone widths to prevent text/button overlap.
